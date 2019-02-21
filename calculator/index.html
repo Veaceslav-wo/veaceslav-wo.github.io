@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 18: DOM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <section id="calculator" class="my-4">
+            <h2>Calculator</h2>
+
+            <form action="https://google.com/" id="calculator-form">
+
+                <div class="form-row">
+                    <div class="form-group col-md-6 col-lg-4">
+                        <label for="first-number">First number</label>
+                        <input type="number" id="first-number" class="form-control" placeholder="Enter an integer from 1 to 100">
+                    </div>
+                    <div class="form-group col-md-6 col-lg-4">
+                        <label for="last-number">Last number</label>
+                        <input type="number" id="last-number" class="form-control" placeholder="Enter another integer from 1 to 100">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="form-row">
+                            <div class="form-group col-3">
+                                <button class="btn btn-primary btn-block btn-sm" data-operation="addition">+</button>
+                            </div>
+                            <div class="form-group col-3">
+                                <button class="btn btn-primary btn-block btn-sm" data-operation="subtraction">-</button>
+                            </div>
+                            <div class="form-group col-3">
+                                <button class="btn btn-primary btn-block btn-sm" data-operation="multiplication">*</button>
+                            </div>
+                            <div class="form-group col-3">
+                                <button class="btn btn-primary btn-block btn-sm" data-operation="division">/</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-12 col-lg-8">
+                        <label for="result-number">Result number</label>
+                        <input type="text" id="result-number" class="form-control" disabled="disabled">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="assets/scripts/app.js"></script>
+</body>
+
+</html>
