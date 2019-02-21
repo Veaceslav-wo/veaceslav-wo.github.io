@@ -1,0 +1,16 @@
+.card-img-overlay{
+	background-color: #333333;
+	opacity: 0;
+	transition: opacity 400ms ease-out;
+}
+
+.card:hover .card-img-overlay{
+	opacity: 0.7;
+}
+
+.card-title{
+	color: #ffffff;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+}
