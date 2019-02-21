@@ -1,0 +1,179 @@
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+.header-wrap {
+  color: #fff;
+  display: flex;
+  background: #000;
+
+}
+
+.header-left {
+  padding-top: 10px;
+  padding-left: 30px;
+  width: 80%;
+  border-right: 2px solid #fff;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.header-left span {
+  font-weight: bold;
+}
+
+.header-left p {
+  font-size: 18px;
+  font-stretch: normal;
+  line-height: 25px;
+}
+
+.header-right {
+  padding-top: 10px;
+}
+
+figure img {
+  display: block;
+  margin: auto;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.header-right ul {
+  padding: 0;
+}
+
+.header-right ul li {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.experience {
+  padding-left: 40px;
+}
+
+.work-content {
+  display: flex;
+}
+
+.work-content__green {
+  margin-bottom: 30px;
+}
+
+.work-content__global {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #999;
+}
+
+.work-content-date {
+  width: 30%;
+}
+
+.work-content-about {
+  margin: auto 20px;
+}
+
+.work-content-about p {
+  margin: 10px auto;
+}
+
+.work-content-about .individ {
+  color: #fd7e14;
+  font-weight: 600;
+}
+
+.work-content-about .little {
+  font-size: 15px;
+}
+
+.skills {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.wrapper-skils {
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #999;
+}
+
+.skills-left {
+  width: 20%;
+}
+
+.skills-right ul {
+  display: flex;
+}
+
+.skills-right ul li {
+  list-style-type: none;
+  padding: 2px 15px;
+  margin-left: 20px;
+  border: 1px solid;
+  color: #fff;
+  background: #000;
+}
+
+.education {
+  padding-left: 40px;
+}
+
+.wrapper-education {
+  display: flex;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #999;
+}
+
+.education-left {
+  width: 16%;
+}
+
+.education-right {
+
+  margin: auto 20px;
+}
+
+.education-right-one {
+  border-bottom: 1px solid #999;
+}
+
+.education-right-two {
+  margin-top: 20px;
+}
+
+.education-right .individ {
+  color: #fd7e14;
+  font-weight: 600;
+}
+
+.education-right .little {
+  font-size: 15px;
+}
+
+.info {
+  font-family: 'Charm', cursive;
+  text-align: center;
+  padding-top: 20px;
+}
